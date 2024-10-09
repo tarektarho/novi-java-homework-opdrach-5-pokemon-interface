@@ -14,7 +14,7 @@ Naast hun type, hebben Pokémon natuurlijk bepaalde eigenschappen met elkaar gem
 **super** klasse. Ook gaan we kijken naar overloading, polymorfisme en een interface.
 
 
-![Pokemon!](./assets/pokemon.JPG)
+![pokemon.Pokemon!](./assets/pokemon.JPG)
 
 
 ### Afwijking van werkwijze
@@ -22,29 +22,29 @@ Naast hun type, hebben Pokémon natuurlijk bepaalde eigenschappen met elkaar gem
 Omdat jullie inmiddels wat verder gevorderd zijn met het programmeren met 
 `Java` gaan we jullie laten ervaren hoe het is om samen een 
 applicatie in elkaar te zetten. Jullie krijgen daarom een deel van de code van
-ons. Jullie krijgen de Main klasse en de PokemonGym klasse.
+ons. Jullie krijgen de Main klasse en de pokemon.PokemonGym klasse.
 Deze twee klassen hoeven jullie niet meer aan te passen.
 Ze staan echter wel vol met foutmeldingen. Deze foutmeldingen mogen jullie weg werken
 door klassen, methodes, variabelen, abstracte klassen en interfaces te maken (en soms een import).
-De code in de PokemonGym fungeert als een soort van "game engine". Deze code hoef je niet te begrijpen, maar het is leuk om te bestuderen.
+De code in de pokemon.PokemonGym fungeert als een soort van "game engine". Deze code hoef je niet te begrijpen, maar het is leuk om te bestuderen.
 De Methodes en Variabelen klassen bevatten hints voor deze opdracht en zullen verder
 geen deel uitmaken van de uiteindelijke applicatie.
 
 #### Klassen naamgeving
 
 Omdat we de belangrijkste functionaliteit al voor je hebben uitgewerkt, is het belangrijk dat je jouw
-klassen de juiste namen geeft. Kijk daarom goed in [Methodes.java](./src/Methodes.java), [Main.java](./src/Main.java) en [PokemonGymImpl.java](./src/PokemonGymImpl.java). 
+klassen de juiste namen geeft. Kijk daarom goed in [Methodes.java](./src/Methodes.java), [Main.java](./src/Main.java) en [pokemon.PokemonGymImpl.java](./src/PokemonGymImpl.java). 
 Daar worden alle klassenamen gebruikt.
-Door de methodes in [Main](./src/Main.java) en [PokemonGymImpl](./src/PokemonGymImpl.java) 
+Door de methodes in [Main](./src/Main.java) en [pokemon.PokemonGymImpl](./src/PokemonGymImpl.java) 
 goed te lezen, kun je voor de meeste methodes en variabelen al afleiden in welke klassen die moeten komen te staan.
 
 #### Methodes en variabelen verdelen
 
 In deze opdracht hoef je zelf geen methodes of variabelen te bedenken. (Tenminste, niet totdat je aan de bonusopdrachten gaat werken.) 
 We hebben bijna alle methodes al voor je in [Methodes.java](./src/Methodes.java) gezet, behalve getters en setters.
-De methodes die hier niet staan, waaronder constructors, kun je afleiden uit [Main](./src/Main.java) en [PokemonGymImpl](./src/PokemonGymImpl.java).
+De methodes die hier niet staan, waaronder constructors, kun je afleiden uit [Main](./src/Main.java) en [pokemon.PokemonGymImpl](./src/PokemonGymImpl.java).
 We hebben een aantal variabelen die je nodig hebt, beschreven in [Variabelen.java](./src/Variabelen.java), 
-maar je kunt ze ook afleiden uit de getters, setters en constructors die in [Main](./src/Main.java) en [PokemonGymImpl](./src/PokemonGymImpl.java) worden aangeroepen.
+maar je kunt ze ook afleiden uit de getters, setters en constructors die in [Main](./src/Main.java) en [pokemon.PokemonGymImpl](./src/PokemonGymImpl.java) worden aangeroepen.
 Het enige wat je nog moet doen is de methodes en variabelen in de juiste klasse(n) zetten. 
 De variabelen uit [Variabelen.java](./src/Variabelen.java) moet je meestal nog een type geven en instantiëren, maar bij sommigen hebben we dat ook al gedaan.
 
@@ -77,7 +77,7 @@ Bij Pokémons is het zo dat het type bepalend is voor hoe zwaar de schade is. Hi
 
 De applicatie moet voldoen aan het volgende:
 
-- Je mag geen code toevoegen, aanpassen of verwijderen uit de `Main` en `PokemonGymImpl` klassen, behalve de nodige imports.
+- Je mag geen code toevoegen, aanpassen of verwijderen uit de `Main` en `pokemon.PokemonGymImpl` klassen, behalve de nodige imports.
 - Een `abstract` super klasse  met 5 `private` `final`  variabelen,  1 `private`variabele, 1 constructor, 6 getters en 1 setter;
 - 4 subklassen die, naast alles dat ze erven, zelf ook minimaal 2 `private` `final` variabelen, 1 constructor, 4 methodes, 1 getter bevatten;
 - Een `Main`-klasse met een `main`-methode;
@@ -88,7 +88,7 @@ De applicatie moet voldoen aan het volgende:
 
 ## Stappenplan
 Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo goed weet waar je moet beginnen, kun je onderstaand stappenplan gebruiken:
-1. Loop door [Main](./src/Main.java) en [PokemonGymImpl](./src/PokemonGymImpl.java) en los alle foutmeldingen op door klassens, variabelen en methodes aan te maken en af en toe iets te importeren.
+1. Loop door [Main](./src/Main.java) en [pokemon.PokemonGymImpl](./src/PokemonGymImpl.java) en los alle foutmeldingen op door klassens, variabelen en methodes aan te maken en af en toe iets te importeren.
 2. Kijk in [Variabelen.java](./src/Variabelen.java) of daar nog niet-geimplementeerde variabelen staan. Plaats deze in de juiste klassen, die je zojuist hebt aangemaakt en geef ze de juiste datatypen.
 3. Geef alle variabelen getters en setters als ze in de juiste klasse staan.
 4. Doe hetzelfde voor [Methodes.java](./src/Methodes.java).
