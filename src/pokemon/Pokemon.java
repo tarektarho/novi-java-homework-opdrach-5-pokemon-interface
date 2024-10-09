@@ -151,15 +151,10 @@ public abstract class Pokemon {
         var currentHp = getHp();
 
         // when a Pokemon levels up, he should be fully healed
-        while (currentHp < 100) {
+        while (currentHp <= 100) {
             System.out.println(getName() + " is healing! HP: " + currentHp);
             setHp(currentHp + 10);
             currentHp = getHp();
-            if (currentHp == 100) {
-                System.out.println(getName() + " is fully healed! HP: " + currentHp);
-                //stop the loop
-                break;
-            }
         }
     }
 
